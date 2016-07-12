@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345EAD1D1D3382E4001BFDCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EAD1C1D3382E4001BFDCA /* main.m */; };
+		345EAD201D3382E4001BFDCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EAD1F1D3382E4001BFDCA /* AppDelegate.m */; };
+		345EAD231D3382E4001BFDCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EAD221D3382E4001BFDCA /* ViewController.m */; };
+		345EAD261D3382E5001BFDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345EAD241D3382E5001BFDCA /* Main.storyboard */; };
+		345EAD291D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 345EAD271D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodeld */; };
+		345EAD2B1D3382E5001BFDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345EAD2A1D3382E5001BFDCA /* Assets.xcassets */; };
+		345EAD2E1D3382E5001BFDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345EAD2C1D3382E5001BFDCA /* LaunchScreen.storyboard */; };
+		345EAD391D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EAD381D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsTests.m */; };
+		345EAD441D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EAD431D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsUITests.m */; };
+		345EAD521D3396AF001BFDCA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345EAD511D3396AF001BFDCA /* CoreLocation.framework */; };
+		345EAD541D3396B6001BFDCA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345EAD531D3396B6001BFDCA /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345EAD351D3382E5001BFDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345EAD101D3382E2001BFDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345EAD171D3382E3001BFDCA;
+			remoteInfo = "Jabord-IOSMapkitDirections";
+		};
+		345EAD401D3382E5001BFDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345EAD101D3382E2001BFDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345EAD171D3382E3001BFDCA;
+			remoteInfo = "Jabord-IOSMapkitDirections";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		345EAD181D3382E3001BFDCA /* Jabord-IOSMapkitDirections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jabord-IOSMapkitDirections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345EAD1C1D3382E4001BFDCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		345EAD1E1D3382E4001BFDCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		345EAD1F1D3382E4001BFDCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		345EAD211D3382E4001BFDCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		345EAD221D3382E4001BFDCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		345EAD251D3382E5001BFDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		345EAD281D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jabord_IOSMapkitDirections.xcdatamodel; sourceTree = "<group>"; };
+		345EAD2A1D3382E5001BFDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		345EAD2D1D3382E5001BFDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345EAD2F1D3382E5001BFDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345EAD341D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jabord-IOSMapkitDirectionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345EAD381D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jabord_IOSMapkitDirectionsTests.m; sourceTree = "<group>"; };
+		345EAD3A1D3382E5001BFDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345EAD3F1D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jabord-IOSMapkitDirectionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345EAD431D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jabord_IOSMapkitDirectionsUITests.m; sourceTree = "<group>"; };
+		345EAD451D3382E5001BFDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345EAD511D3396AF001BFDCA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		345EAD531D3396B6001BFDCA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345EAD151D3382E3001BFDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EAD541D3396B6001BFDCA /* MapKit.framework in Frameworks */,
+				345EAD521D3396AF001BFDCA /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EAD311D3382E5001BFDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EAD3C1D3382E5001BFDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345EAD0F1D3382E1001BFDCA = {
+			isa = PBXGroup;
+			children = (
+				345EAD531D3396B6001BFDCA /* MapKit.framework */,
+				345EAD511D3396AF001BFDCA /* CoreLocation.framework */,
+				345EAD1A1D3382E4001BFDCA /* Jabord-IOSMapkitDirections */,
+				345EAD371D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsTests */,
+				345EAD421D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsUITests */,
+				345EAD191D3382E3001BFDCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		345EAD191D3382E3001BFDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345EAD181D3382E3001BFDCA /* Jabord-IOSMapkitDirections.app */,
+				345EAD341D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsTests.xctest */,
+				345EAD3F1D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345EAD1A1D3382E4001BFDCA /* Jabord-IOSMapkitDirections */ = {
+			isa = PBXGroup;
+			children = (
+				345EAD1E1D3382E4001BFDCA /* AppDelegate.h */,
+				345EAD1F1D3382E4001BFDCA /* AppDelegate.m */,
+				345EAD211D3382E4001BFDCA /* ViewController.h */,
+				345EAD221D3382E4001BFDCA /* ViewController.m */,
+				345EAD241D3382E5001BFDCA /* Main.storyboard */,
+				345EAD2A1D3382E5001BFDCA /* Assets.xcassets */,
+				345EAD2C1D3382E5001BFDCA /* LaunchScreen.storyboard */,
+				345EAD2F1D3382E5001BFDCA /* Info.plist */,
+				345EAD271D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodeld */,
+				345EAD1B1D3382E4001BFDCA /* Supporting Files */,
+			);
+			path = "Jabord-IOSMapkitDirections";
+			sourceTree = "<group>";
+		};
+		345EAD1B1D3382E4001BFDCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				345EAD1C1D3382E4001BFDCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		345EAD371D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				345EAD381D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsTests.m */,
+				345EAD3A1D3382E5001BFDCA /* Info.plist */,
+			);
+			path = "Jabord-IOSMapkitDirectionsTests";
+			sourceTree = "<group>";
+		};
+		345EAD421D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345EAD431D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsUITests.m */,
+				345EAD451D3382E5001BFDCA /* Info.plist */,
+			);
+			path = "Jabord-IOSMapkitDirectionsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		345EAD171D3382E3001BFDCA /* Jabord-IOSMapkitDirections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345EAD481D3382E6001BFDCA /* Build configuration list for PBXNativeTarget "Jabord-IOSMapkitDirections" */;
+			buildPhases = (
+				345EAD141D3382E3001BFDCA /* Sources */,
+				345EAD151D3382E3001BFDCA /* Frameworks */,
+				345EAD161D3382E3001BFDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jabord-IOSMapkitDirections";
+			productName = "Jabord-IOSMapkitDirections";
+			productReference = 345EAD181D3382E3001BFDCA /* Jabord-IOSMapkitDirections.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345EAD331D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345EAD4B1D3382E6001BFDCA /* Build configuration list for PBXNativeTarget "Jabord-IOSMapkitDirectionsTests" */;
+			buildPhases = (
+				345EAD301D3382E5001BFDCA /* Sources */,
+				345EAD311D3382E5001BFDCA /* Frameworks */,
+				345EAD321D3382E5001BFDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345EAD361D3382E5001BFDCA /* PBXTargetDependency */,
+			);
+			name = "Jabord-IOSMapkitDirectionsTests";
+			productName = "Jabord-IOSMapkitDirectionsTests";
+			productReference = 345EAD341D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		345EAD3E1D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345EAD4E1D3382E6001BFDCA /* Build configuration list for PBXNativeTarget "Jabord-IOSMapkitDirectionsUITests" */;
+			buildPhases = (
+				345EAD3B1D3382E5001BFDCA /* Sources */,
+				345EAD3C1D3382E5001BFDCA /* Frameworks */,
+				345EAD3D1D3382E5001BFDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345EAD411D3382E5001BFDCA /* PBXTargetDependency */,
+			);
+			name = "Jabord-IOSMapkitDirectionsUITests";
+			productName = "Jabord-IOSMapkitDirectionsUITests";
+			productReference = 345EAD3F1D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345EAD101D3382E2001BFDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jeremiah;
+				TargetAttributes = {
+					345EAD171D3382E3001BFDCA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					345EAD331D3382E5001BFDCA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 345EAD171D3382E3001BFDCA;
+					};
+					345EAD3E1D3382E5001BFDCA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 345EAD171D3382E3001BFDCA;
+					};
+				};
+			};
+			buildConfigurationList = 345EAD131D3382E2001BFDCA /* Build configuration list for PBXProject "Jabord-IOSMapkitDirections" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345EAD0F1D3382E1001BFDCA;
+			productRefGroup = 345EAD191D3382E3001BFDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				345EAD171D3382E3001BFDCA /* Jabord-IOSMapkitDirections */,
+				345EAD331D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsTests */,
+				345EAD3E1D3382E5001BFDCA /* Jabord-IOSMapkitDirectionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345EAD161D3382E3001BFDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EAD2E1D3382E5001BFDCA /* LaunchScreen.storyboard in Resources */,
+				345EAD2B1D3382E5001BFDCA /* Assets.xcassets in Resources */,
+				345EAD261D3382E5001BFDCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EAD321D3382E5001BFDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EAD3D1D3382E5001BFDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345EAD141D3382E3001BFDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EAD231D3382E4001BFDCA /* ViewController.m in Sources */,
+				345EAD291D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodeld in Sources */,
+				345EAD201D3382E4001BFDCA /* AppDelegate.m in Sources */,
+				345EAD1D1D3382E4001BFDCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EAD301D3382E5001BFDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EAD391D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EAD3B1D3382E5001BFDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EAD441D3382E5001BFDCA /* Jabord_IOSMapkitDirectionsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345EAD361D3382E5001BFDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345EAD171D3382E3001BFDCA /* Jabord-IOSMapkitDirections */;
+			targetProxy = 345EAD351D3382E5001BFDCA /* PBXContainerItemProxy */;
+		};
+		345EAD411D3382E5001BFDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345EAD171D3382E3001BFDCA /* Jabord-IOSMapkitDirections */;
+			targetProxy = 345EAD401D3382E5001BFDCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		345EAD241D3382E5001BFDCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345EAD251D3382E5001BFDCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		345EAD2C1D3382E5001BFDCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345EAD2D1D3382E5001BFDCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		345EAD461D3382E5001BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		345EAD471D3382E5001BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345EAD491D3382E6001BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jabord-IOSMapkitDirections/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Core.Jabord-IOSMapkitDirections";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		345EAD4A1D3382E6001BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jabord-IOSMapkitDirections/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Core.Jabord-IOSMapkitDirections";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		345EAD4C1D3382E6001BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jabord-IOSMapkitDirectionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Core.Jabord-IOSMapkitDirectionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jabord-IOSMapkitDirections.app/Jabord-IOSMapkitDirections";
+			};
+			name = Debug;
+		};
+		345EAD4D1D3382E6001BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jabord-IOSMapkitDirectionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Core.Jabord-IOSMapkitDirectionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jabord-IOSMapkitDirections.app/Jabord-IOSMapkitDirections";
+			};
+			name = Release;
+		};
+		345EAD4F1D3382E6001BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jabord-IOSMapkitDirectionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Core.Jabord-IOSMapkitDirectionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jabord-IOSMapkitDirections";
+			};
+			name = Debug;
+		};
+		345EAD501D3382E6001BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jabord-IOSMapkitDirectionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Core.Jabord-IOSMapkitDirectionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jabord-IOSMapkitDirections";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345EAD131D3382E2001BFDCA /* Build configuration list for PBXProject "Jabord-IOSMapkitDirections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EAD461D3382E5001BFDCA /* Debug */,
+				345EAD471D3382E5001BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345EAD481D3382E6001BFDCA /* Build configuration list for PBXNativeTarget "Jabord-IOSMapkitDirections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EAD491D3382E6001BFDCA /* Debug */,
+				345EAD4A1D3382E6001BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		345EAD4B1D3382E6001BFDCA /* Build configuration list for PBXNativeTarget "Jabord-IOSMapkitDirectionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EAD4C1D3382E6001BFDCA /* Debug */,
+				345EAD4D1D3382E6001BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		345EAD4E1D3382E6001BFDCA /* Build configuration list for PBXNativeTarget "Jabord-IOSMapkitDirectionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EAD4F1D3382E6001BFDCA /* Debug */,
+				345EAD501D3382E6001BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		345EAD271D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				345EAD281D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodel */,
+			);
+			currentVersion = 345EAD281D3382E5001BFDCA /* Jabord_IOSMapkitDirections.xcdatamodel */;
+			path = Jabord_IOSMapkitDirections.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 345EAD101D3382E2001BFDCA /* Project object */;
+}
