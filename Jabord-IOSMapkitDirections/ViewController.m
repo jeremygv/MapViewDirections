@@ -59,7 +59,10 @@
     [locationManager startUpdatingLocation];
     
 }
-
+- (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated
+{
+    
+}
 -(void)getDirection:(MKMapItem *)sourceItem Dest:(MKMapItem *)destinationItem
 {
     
@@ -249,7 +252,7 @@
         }
         if (placemarkSource!=nil && placemarkDestination!=nil) {
             
-            
+            isSearch=NO;
             MKPlacemark *placemarksSource;
             placemarksSource =[[MKPlacemark alloc]initWithPlacemark:placemarkSource];
             
@@ -298,6 +301,8 @@
 
 - (IBAction)searchDirection:(id)sender {
     isSearch=YES;
+    [_sourceTextField resignFirstResponder];
+    [_destinationTextField resignFirstResponder];
     if (![_sourceTextField.text isEqualToString:@"Current Location"]) {
         placemarkSource =nil;
     }
@@ -309,6 +314,45 @@
     
     
     
+}
+
+- (IBAction)viewiMap:(id)sender {
+//    isSearch=YES;
+    
+//    [locationManager startUpdatingLocation];
+//    MKPlacemark *placemarksSource;
+//    placemarksSource =[[MKPlacemark alloc]initWithPlacemark:placemarkSource];
+//    
+//    MKMapItem *sourceMapItem =[[MKMapItem alloc]initWithPlacemark:placemarksSource];
+//    MKPlacemark *placemarksDestination =[[MKPlacemark alloc]initWithPlacemark:placemarkDestination];
+//    MKMapItem *destinationMapItem =[[MKMapItem alloc]initWithPlacemark:placemarksDestination];
+//
+//    
+//    NSArray* mapItems = [[NSArray alloc] initWithObjects: sourceMapItem, destinationMapItem,nil] ;
+//   NSDictionary* options = [NSDictionary dictionaryWithObjectsAndKeys:MKLaunchOptionsDirectionsModeDriving, MKLaunchOptionsDirectionsModeKey, nil];
+//    [MKMapItem openMapsWithItems:mapItems launchOptions:options];
+    [self.geocoder geocodeAddressString:_destinationTextField.text completionHandler:^(NSArray *placemarks, NSError *error) {
+        
+        if ([placemarks count] > 0) {
+            CLPlacemark *placemarkMap = [placemarks objectAtIndex:0];
+            CLLocation *location = placemarkMap.location;
+            CLLocationCoordinate2D there = location.coordinate;
+            
+            MKPlacemark *destPlace = [[MKPlacemark alloc] initWithCoordinate:there addressDictionary:nil];
+            MKMapItem *destMapItem = [[MKMapItem alloc] initWithPlacemark:destPlace];
+            destMapItem.name =_destinationTextField.text;
+//            destMapItem.phoneNumber = PhoneString;
+            
+            NSArray* mapItems = [[NSArray alloc] initWithObjects: destMapItem, nil];
+            NSDictionary* options = [NSDictionary dictionaryWithObjectsAndKeys:MKLaunchOptionsDirectionsModeDriving, MKLaunchOptionsDirectionsModeKey, nil];
+            [MKMapItem openMapsWithItems:mapItems launchOptions:options];
+        }
+    }];
+    
+    
+}
+
+- (IBAction)viewgMap:(id)sender {
 }
 
 @end

@@ -16,6 +16,8 @@
 
 @property (strong, nonatomic) IBOutlet MKMapView *MapView;
 - (IBAction)searchDirection:(id)sender;
+- (IBAction)viewiMap:(id)sender;
+- (IBAction)viewgMap:(id)sender;
 
 @end
 
