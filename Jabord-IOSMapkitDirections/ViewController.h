@@ -12,7 +12,7 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextField *sourceTextField;
 @property (strong, nonatomic) IBOutlet UITextField *destinationTextField;
-
+@property(strong,nonatomic ) CLGeocoder *geocoder;
 
 @property (strong, nonatomic) IBOutlet MKMapView *MapView;
 - (IBAction)searchDirection:(id)sender;
